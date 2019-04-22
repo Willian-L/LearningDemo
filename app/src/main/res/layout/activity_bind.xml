@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceDemo.BindActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/btn_startPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBind"
+        android:text="Bind开启服务" />
+
+    <Button
+        android:id="@+id/btn_stopPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="unBind"
+        android:text="unBind结束服务"/>
+
+    <Button
+        android:id="@+id/btn_CallService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="callService"
+        android:text="调用服务方法"/>
+
+</LinearLayout>

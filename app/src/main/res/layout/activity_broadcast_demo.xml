@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BroadcastDemo.BroadcastDemoActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Broadcatreceiver"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tv_IP"
+        style="@style/OnclickStyle"
+        android:layout_marginTop="24dp"
+        android:onClick="ipDialer"
+        android:text="IP拨号器" />
+
+    <TextView
+        android:id="@+id/tv_Sms"
+        style="@style/OnclickStyle"
+        android:onClick="sms"
+        android:text="短信监听" />
+
+    <TextView
+        android:id="@+id/tv_Install"
+        style="@style/NoOnclickStyle"
+        android:text="安装与卸载" />
+
+    <TextView
+        android:id="@+id/tv_Open"
+        style="@style/NoOnclickStyle"
+        android:text="开机启动"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_Send"
+        style="@style/OnclickStyle"
+        android:onClick="sendBroadcast"
+        android:text="发送无序广播" />
+
+    <TextView
+        android:id="@+id/tv_SendOrder"
+        style="@style/OnclickStyle"
+        android:onClick="sendOrder"
+        android:text="发送有序广播" />
+
+
+    <TextView
+        android:id="@+id/tv_Register"
+        style="@style/OnclickStyle"
+        android:onClick="register"
+        android:text="动态注册" />
+
+</LinearLayout>
