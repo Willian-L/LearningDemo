@@ -1,9 +1,11 @@
-BaseType.java：获取常用数据类型的二进制位数、包装类、最大值以及最小值。
+BaseType：获取常用数据类型的二进制位数、包装类、最大值以及最小值。
 
 EqualsDemo：测试==和equals的区别。
 
 ConstructorDemo.java：回顾构造方法的编写和使用。
 
-StaticDemo：学习静态变量和静态方法的编写和使用。
+StaticDemo：学习静态变量、静态方法和静态初始化块的编写和使用。
 
 ImplementsDemo：学习接口的使用。
+
+Packaging：学习封装和构造方法的使用
