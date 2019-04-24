@@ -25,7 +25,7 @@ public class ConstructorDemo {
         myPuppy.setAge( 2 );
         /* 调用另一个方法获取age */
         myPuppy.getAge( );
-        /*你也可以像下面这样访问成员变量 */
+        /*也可以像下面这样访问成员变量 */
         System.out.println("Variable Value :" + myPuppy.puppyAge );
     }
 }
