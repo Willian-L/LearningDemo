@@ -8,4 +8,10 @@ StaticDemo.java：学习静态变量、静态方法和静态初始化块的编�
 
 ImplementsDemo.java：学习接口的使用。
 
-Packaging.java：学习封装和构造方法的使用
+abClass：学习抽象类的使用。
+
+Packaging.java：学习封装和构造方法的使用。
+
+InClass.java：学习内部类的使用。
+
+AbClass：使用抽象类计算矩形和圆形的面积和周长。
