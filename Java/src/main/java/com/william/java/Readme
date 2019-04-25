@@ -16,4 +16,10 @@ InClass.java：学习内部类的使用。
 
 AbClass：使用抽象类计算矩形和圆形的面积和周长。
 
-Inherit：继承的相关测试。(包含final关键字的应用、static final定义的全局常量、super关键字的应用、父类与子类构造方法之间的关系)
+Inherit：继承的相关测试。包含下列测试
+            1.final关键字的应用
+            2.static final定义的全局常量
+            3.super关键字的应用
+            4.父类与子类构造方法之间的关系
+            5.输出对象内存地址/通过toString()方法输出对象的属性值
+            6.学习使用equals方法比较对象/使用重写的equals比较对象

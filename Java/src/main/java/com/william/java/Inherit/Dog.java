@@ -1,6 +1,11 @@
 package com.william.java.Inherit;
 
+/*
+Dog继承Animal，因为Animal是Object的子类，所以Dog也同时是Object的子类
+ */
 public class Dog extends Animal {
+
+    public int weight = 100;
 
     /*
     如果子类中没有显式调用父类的构造方法，而父类又没有无参的构造方法，则编译出错。

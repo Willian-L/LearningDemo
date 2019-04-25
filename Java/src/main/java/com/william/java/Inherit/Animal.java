@@ -2,7 +2,7 @@ package com.william.java.Inherit;
 
 /*
 Animal没有指定继承那个类，系统默认认为它是继承Object类
- */
+*/
 public class Animal {
     // 定义一个final变量（即常量），static final会使其成为全局常量
     static final int AGE = 5;
