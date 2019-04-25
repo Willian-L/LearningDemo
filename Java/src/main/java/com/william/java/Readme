@@ -15,3 +15,5 @@ Packaging.java：学习封装和构造方法的使用。
 InClass.java：学习内部类的使用。
 
 AbClass：使用抽象类计算矩形和圆形的面积和周长。
+
+Inherit：继承的相关测试。(包含final关键字的应用、static final定义的全局常量、super关键字的应用、父类与子类构造方法之间的关系)
